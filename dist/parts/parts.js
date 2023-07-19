@@ -9,6 +9,7 @@ const path_1 = __importDefault(require("path"));
 const marked_1 = require("marked");
 const md_files_json_1 = __importDefault(require("../md.files.json"));
 const mdFiles = md_files_json_1.default;
+//  https://github.com/lewislwood/nfb-tech-ideas/blob/main/md/beacons.md
 const parts = {
     docsPath: path_1.default.resolve(__dirname, "../..", "docs"),
     mdPath: path_1.default.resolve(__dirname, "..", "..", "md"),
