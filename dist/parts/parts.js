@@ -10,6 +10,12 @@ const marked_1 = require("marked");
 const md_files_json_1 = __importDefault(require("../md.files.json"));
 const mdFiles = md_files_json_1.default;
 //  https://github.com/lewislwood/nfb-tech-ideas/blob/main/md/beacons.md
+// https://lewislwood.github.io/nfb-tech-ideas/
+const pageEdit = (fileName) => {
+    const repo = "nfb-tech-ideas";
+    const user = "lewislwood";
+    return `https://github.com/${user}/${repo}`;
+};
 const parts = {
     docsPath: path_1.default.resolve(__dirname, "../..", "docs"),
     mdPath: path_1.default.resolve(__dirname, "..", "..", "md"),
@@ -55,7 +61,7 @@ const writeHtmlFile = (mdFile, contents) => {
 }; // writeHtmlFile
 exports.writeHtmlFile = writeHtmlFile;
 const readMdFile = (mdFile) => {
-    var _a;
+    var _a, _b;
     initialize();
     if (!mdFile.md_file)
         mdFile.md_file = mdFile.name + ".md";
@@ -69,7 +75,7 @@ const readMdFile = (mdFile) => {
         if (!mdFile.doc_title)
             mdFile.doc_title = mdFile.name;
         str = ma.parse(str);
-        const md = [(_a = parts.header) === null || _a === void 0 ? void 0 : _a.replace(/--title--/g, mdFile.doc_title), str, parts.footer];
+        const md = [(_a = parts.header) === null || _a === void 0 ? void 0 : _a.replace(/--title--/g, mdFile.doc_title), str, (_b = parts.footer) === null || _b === void 0 ? void 0 : _b.replace(/--page--/, pageEdit(mdFile.md_file))];
         str = md.join("\n");
     }
     catch (e) {

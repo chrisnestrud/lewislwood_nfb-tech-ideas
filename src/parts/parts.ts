@@ -5,6 +5,14 @@ import mdFilesList   from "../md.files.json";
 
 const mdFiles:Md_File[] = mdFilesList;
 //  https://github.com/lewislwood/nfb-tech-ideas/blob/main/md/beacons.md
+// https://lewislwood.github.io/nfb-tech-ideas/
+const pageEdit = (fileName: string) : string => {
+    const repo =  "nfb-tech-ideas"
+    const  user =  "lewislwood";
+return `https://github.com/${user}/${repo}`;
+
+};
+
 
 
 const parts:Parts = {
@@ -63,7 +71,8 @@ const ma = new Marked({mangle: false, headerIds : false });
 if (! mdFile.doc_title) mdFile.doc_title = mdFile.name;
 str = ma.parse(str);
 const md = [parts.header?.replace(/--title--/g,mdFile.doc_title ),
-   str , parts.footer];  
+   str, 
+   parts.footer?.replace(/--page--/, pageEdit( mdFile.md_file))];  
 str = md.join("\n");
 
 } catch(e:any) {

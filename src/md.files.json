@@ -12,5 +12,12 @@
         "html_file": "beacons.html",
         "doc_title": "NFBcs Beacons considerations",
         "desc": "Discusses the use of Beacons, features, pitfalls, & implementation."
+    },
+    {
+        "name": "edit",
+        "md_file": "edit.md",
+        "html_file": "edit.html",
+        "doc_title": "NFBcs edit instructions",
+        "desc": "Displayes the edit instruction process."
     }
 ]
