@@ -4,6 +4,8 @@ import marked, { Marked } from "marked";
 import mdFilesList   from "../md.files.json";
 
 const mdFiles:Md_File[] = mdFilesList;
+//  https://github.com/lewislwood/nfb-tech-ideas/blob/main/md/beacons.md
+
 
 const parts:Parts = {
     docsPath:  path.resolve(__dirname, "../..", "docs"),
