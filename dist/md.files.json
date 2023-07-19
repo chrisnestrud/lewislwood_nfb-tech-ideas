@@ -1,0 +1,16 @@
+[
+    {
+        "name": "index",
+        "md_file": "index.md",
+        "html_file": "index.html",
+        "doc_title": "NFBcs Home Page",
+        "desc": "Introduces NBF tech Ideas and issues to resolve. Also outlines categories and possible solutions."
+    },
+    {
+        "name": "beacons",
+        "md_file": "beacons.md",
+        "html_file": "beacons.html",
+        "doc_title": "NFBcs Beacons considerations",
+        "desc": "Discusses the use of Beacons, features, pitfalls, & implementation."
+    }
+]

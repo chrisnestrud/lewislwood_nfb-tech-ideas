@@ -1,0 +1,24 @@
+{
+  "name": "nfb-tech-ideas",
+  "version": "1.0.0",
+  "description": "There is always room for improvement and ways to innovate as well. This includes conventions (State or National).",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node dist/index.js",
+    "compile": "npx tsc"
+  },
+  "keywords": ["nfb", "nfbcs", "qrcode", "beacons", "convention" , "blind", "accessibility"],
+  "author": "Lewis Wood",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/marked": "^5.0.1",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "marked": "^5.1.1"
+  }
+}
