@@ -4,12 +4,12 @@ import marked, { Marked } from "marked";
 import mdFilesList   from "../md.files.json";
 
 const mdFiles:Md_File[] = mdFilesList;
-//  https://github.com/lewislwood/nfb-tech-ideas/blob/main/md/beacons.md
+//  https://raw.github.com/lewislwood/nfb-tech-ideas/main/md/beacons.md
 // https://lewislwood.github.io/nfb-tech-ideas/
 const pageEdit = (fileName: string) : string => {
     const repo =  "nfb-tech-ideas"
     const  user =  "lewislwood";
-return `https://github.com/${user}/${repo}`;
+return `https://raw.github.com/${user}/${repo}/main/md/${fileName}`;
 
 };
 
