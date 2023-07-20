@@ -38,7 +38,7 @@ The first step in any planning or design is to identify issues. Then we can come
 
     *  Beacons - Now these seem practical for directional information. Be like human Barkers are currently doing. Only thing this is more technical and ranges vary by types.  See [Beacons](beacons.html) for more details.
 
-* qrCode technology - Simplier to implement and already supported by OS of Apple and Android. Requires line of sight.See [qrcodes](qrCodes.html) Here is a [wiki article](https://en.wikipedia.org/wiki/QR_code)
+* qrCode technology - Simplier to implement and already supported by OS of Apple and Android. Requires line of sight.See [qrcodes](qrcodes.html) Here is a [wiki article](https://en.wikipedia.org/wiki/QR_code)
 
 ## Categories of Ideas
 * Registration Table (NFB, Divisions) - Simply email them their personal qrCode a couple days to Event. Now they show qrCode from email and the camera scans it they can them pay or prove they paid.  Either way. Also a qrCode to register for first timers.
