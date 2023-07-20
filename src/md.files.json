@@ -19,5 +19,40 @@
         "html_file": "edit.html",
         "doc_title": "NFBcs edit instructions",
         "desc": "Displayes the edit instruction process."
+    },
+    {
+        "name": "qrcodes",
+        "md_file": "qrcodes.md",
+        "html_file": "qrcodes.html",
+        "doc_title": "QrCodes Technology",
+        "desc": "QrCode discussion, Implementation, and pros and cons."
+    },
+    {
+        "name": "jobfair",
+        "md_file": "jobfair.md",
+        "html_file": "jobfair.html",
+        "doc_title": "Job Fair Discussions for Technology",
+        "desc": "Job Fair discussion on Technolgies and ways to make it better."
+    },
+    {
+        "name": "exhibit-hall",
+        "md_file": "exhibit-hall.md",
+        "html_file": "exhibit-hall.html",
+        "doc_title": "Exhibit Hall Technology Ideas",
+        "desc": "Ways to make the Exihibit Hall"
+    },
+    {
+        "name": "assembly",
+        "md_file": "assembly.md",
+        "html_file": "assembly.html",
+        "doc_title": "Assembly Hall Tech Ideas",
+        "desc": "Assembly Hall Technology Ideas"
+    },
+    {
+        "name": "navigation",
+        "md_file": "navigation.md",
+        "html_file": "navigation.html",
+        "doc_title": "Navigating Hallways etc...",
+        "desc": "Navigating Hallways and finding facillities."
     }
 ]

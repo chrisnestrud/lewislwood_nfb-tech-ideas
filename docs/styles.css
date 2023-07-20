@@ -2,3 +2,43 @@ body {
     background: #000080;
     color: yellow;
 }
+.banner-title {
+    color: white;
+    font-size: xxx-large;
+    
+    ;
+}
+
+/*  Sizing, formatting, media selectors */
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1020px;
+    border-width: 8px;
+    margin: 0px;
+    border-color: white;
+    padding-left: 3px;
+    padding-right:  3px;
+    }
+    .banner {
+        margin:  0;
+        padding: 0%;
+        display: flex;;
+        width: 100%;
+    }
+    .logo {
+        align-self: flex-start;;
+    }
+
+    .logo img {
+        margin: 0;
+        padding: 0;
+        filter: invert(1);
+        fill: none;
+        width: 60px;
+    }
+    .banner-title {
+        align-self: center;;
+    }
