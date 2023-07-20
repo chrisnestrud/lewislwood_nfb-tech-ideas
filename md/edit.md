@@ -14,12 +14,11 @@ This is option requires you to have NodeJs installed, as well as Git installed. 
 
 ## Special edit files.
 
-[styles.css file that controls the appearance](https://github.com/lewislwood/nfb-tech-ideas/blob/main/docs/styles.css)
+[styles.css file that controls the appearance](https://raw.github.com/lewislwood/nfb-tech-ideas/main/docs/styles.css)
 
+[JSON file](https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/md.files.json) that controls the allowable list of markdown files.
 
-[JSON file](https://github.com/lewislwood/nfb-tech-ideas/blob/main/src/md.files.json) that controls the allowable list of markdown files.
+[]Html Header Template](https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/parts/header.html) is the header at the top of every page.
 
-[]Html Header Template](https://github.com/lewislwood/nfb-tech-ideas/blob/main/src/parts/header.html) is the header at the top of every page.
-
-[Html Footer Template](https://github.com/lewislwood/nfb-tech-ideas/blob/main/src/parts/footer.html) is the footer at the bottom of every page.
+[Html Footer Template](https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/parts/footer.html) is the footer at the bottom of every page.
 
