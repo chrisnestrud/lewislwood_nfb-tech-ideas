@@ -51,7 +51,7 @@ The first step in any planning or design is to identify issues. Then we can come
 
 * [Navigation Hallways](navigation.html) - Locating meeting rooms, elevators bathrooms, and other amenities., 
 
-* [Smart Phone App]( - An app with the capabilities to solve the issues and be easy to use, and cost effective to implement. This will be an evolutionary process over many years. Click on the link for more details.
+* [Smart Phone App](app.html)An app with the capabilities to solve the issues and be easy to use, and cost effective to implement. This will be an evolutionary process over many years. Click on the link for more details.
 
 --------------
 *** Documentation Notes

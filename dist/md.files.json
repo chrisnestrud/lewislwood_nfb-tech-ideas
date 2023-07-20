@@ -54,5 +54,12 @@
         "html_file": "navigation.html",
         "doc_title": "Navigating Hallways etc...",
         "desc": "Navigating Hallways and finding facillities."
+    },
+    {
+        "name": "app",
+        "md_file": "app.md",
+        "html_file": "app.html",
+        "doc_title": "Custom App Technology",
+        "desc": "Custom App that will implement the technologies."
     }
 ]

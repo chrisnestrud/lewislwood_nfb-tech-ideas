@@ -2,7 +2,7 @@ import * as parts from "./parts/parts";
 
 
 const args = process.argv;
-let cmds: string[] = (args.length > 2) ? args.slice(2) : ['beacons'];
+let cmds: string[] = (args.length > 2) ? args.slice(2) : [];
 
 if (cmds.length === 0) {
     console.log(`You must specify a valid option ( all, ${parts.getAllMdFileChoices().join(", ")})`);

@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const parts = __importStar(require("./parts/parts"));
 const args = process.argv;
-let cmds = (args.length > 2) ? args.slice(2) : ['beacons'];
+let cmds = (args.length > 2) ? args.slice(2) : [];
 if (cmds.length === 0) {
     console.log(`You must specify a valid option ( all, ${parts.getAllMdFileChoices().join(", ")})`);
 }
