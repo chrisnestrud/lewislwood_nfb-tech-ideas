@@ -58,5 +58,7 @@ The first step in any planning or design is to identify issues. Then we can come
 
 This matter and idea was brought up at the NFB Computer Science Meeting2023 by Lewis Wood.  I am preliminarily setting up this repo on my github.com. Now if at a later date NFB CS creates an Organizational Repository Account I will transfer this repo over to them.  Please excuse any bad grammer. I am a developer and not a writer. Feel free for anyone to submit changes to this repo. Email me or create a repo issue.
 
+This web site is a simply TypeScript app that generates the Html from markdown. Why did I choose markdown?  I wanted everyone of all technical and non-technical abilities contribute. For my fellow blind documenters or coders, this repo is MIT License so copy freely and customize it for your own document project you desire.  I will from time to time enhance it, but I think this documentation/discussion approach is a very good one.
+
     
 

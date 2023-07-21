@@ -1,0 +1,67 @@
+
+Initial Setup will require NodeJs.
+If you already have NodeJs version 18  or higher skip thie next step.
+
+Download and install NodeJs at the following address.
+https://nodejs.dev/en/download
+
+
+Once you have NodeJs you will need to do the following:
+
+Command line is symbolized by a "$"
+
+At root of repository folder you download or cloned.
+$npm install
+Now just be patient.  It will download neccessary packages and install them to prepare the project.
+
+
+Now that Initial installation is complete you must run the compile step.
+
+**********
+Compile step.
+$npm run compile
+This recompiles the project and makes it ready to run.
+
+As long as you only modify files in the md folder or the root folder *.txt and readme.md, and not add another md/*md file you will not ever need to run the compile step again.
+
+***********
+Build step.
+This step converts the *.md files into *.thml and merges header and footer code to this html file.
+
+$npm run build all
+
+The above rebuilds all the html files in the docs folder.
+
+You can rebuild select files.  Example:
+$npm run build qrcodes
+ 
+ The above only reprocesses the qrcodes.md and parses it into  docs/qrcodes.html
+
+ To get a list of build options simply type build with not option.
+ $npm run build
+ returns a list of valid choices.
+
+ ***********
+ Adding a new *.md file or modifying anything under the src folder structure.
+
+ If you add a new *.md, it will ot find it until you manually add it to the src/md-files.json .  Simply copy a object block of json and append the new md file settings.
+
+ Now you must run the  compile step again. Then the build step and your new choice should be allowed and recognized.
+
+
+**** Warning:  Header has multiple unclosed html tags on purpose.
+
+<html>
+<body>
+<div class=".container">
+<div role="main">
+
+Those tags are closed in the footer which will be appended after the parsed markdown.
+
+Small simple document modifying project, by techies and non-techies. I really enjoyed  writing this simple TypeScript app.
+
+The cause is a good one. I hope something good comes from the ideas we come up with.
+
+
+
+

@@ -18,16 +18,27 @@
     <div class="content" role="main">
 <h1>How to edit or Submit edits</h1>
 <h2>Least technical method</h2>
-<p>Bottom of every page are download page links. You click on these links and you will be redirected to the github repo where the file will be displayed.  You will need to select copy page from the raw data page.  This is a markdown file for all pages. There are few exceptins (css, txt, ...). If your changes are small and quick.  Simply paste the text and description in the discussions of the repository on github. </p>
+<p>Bottom of every page are &quot;edit page&quot; links. You click on these links and you will be redirected to the github repo where the file will be displayed.  You will need to select and copy the page contentes  . Then paste it in your favorite text editor (Notepad works) and save it as an &quot;.md&quot; file.  This is a markdown file for all pages. There are few exceptins (css, txt, ...). If your changes are small and quick.  Simply paste the text and description in the discussions of the repository on github. </p>
 <p>You may also submint submit your changes to a discussion forum <a href="mailto:nfbcs@nfbnet.org">nfbcs@nfbnet.org</a> I or another volunteer will see about incorporating your changes.</p>
+<h2>Download Repo as a Zip file</h2>
+<p>If you do not have a github account or have git installed locally then this is the best option.
+<a href="https://github.com/lewislwood/nfb-tech-ideas/zipball/main">Zipped Repo</a></p>
+<pre><code>          $git clone https://github.com/lewislwood/nfb-tech-ideas
+</code></pre>
 <h2>Fork repo and issue pull requests</h2>
 <p>This option requires you to have a github account. You will want to fork the repo. Clone the repo locally where you can work on it locally and push it to your fork of the repo. Read the cloning repo instructions found at the root folder on how to rebuild the repo.</p>
-<p>This is option requires you to have NodeJs installed, as well as Git installed. So that you can view the generated html files.</p>
+<pre><code>$git clone git@github.com:lewislwood/nfb-tech-ideas.git
+</code></pre>
+<p>You wil of course use your own username instead of my name lewislwood.  Also your fork repo name if you changed it. This will require that you have a shared key with github already set up.</p>
+<p>This is option requires you to have NodeJs installed, as well as Git installed. So that you can view the generated html files. I used NodeJs version 18.
+Install <a href="https://nodejs.dev/en/download/">NodeJs here</a>.</p>
+<p>See &quot;setup &amp; instructions&quot; found in root folder of repo.</p>
 <h2>Special edit files.</h2>
 <p><a href="https://raw.github.com/lewislwood/nfb-tech-ideas/main/docs/styles.css">styles.css file that controls the appearance</a></p>
 <p><a href="https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/md.files.json">JSON file</a> that controls the allowable list of markdown files.</p>
 <p>[]Html Header Template](<a href="https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/parts/header.html">https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/parts/header.html</a>) is the header at the top of every page.</p>
 <p><a href="https://raw.github.com/lewislwood/nfb-tech-ideas/main/src/parts/footer.html">Html Footer Template</a> is the footer at the bottom of every page.</p>
+<p><a href="https://raw.github.com/lewislwood/nfb-tech-ideas/main/setup-instructions.txt">Setup &amp; Instructions</a> only need if you plan on downloading or cloning repo and running it.</p>
 
 </div> 
 <div class="footer" role=""footer>
