@@ -1,6 +1,6 @@
 
 Initial Setup will require NodeJs.
-If you already have NodeJs version 18  or higher skip thie next step.
+If you already have NodeJs version 18  or higher skip this next step.
 
 Download and install NodeJs at the following address.
 https://nodejs.dev/en/download
@@ -12,7 +12,7 @@ Command line is symbolized by a "$"
 
 At root of repository folder you download or cloned.
 $npm install
-Now just be patient.  It will download neccessary packages and install them to prepare the project.
+Now just be patient.  It will download necessary packages and install them to prepare the project.
 
 
 Now that Initial installation is complete you must run the compile step.
@@ -37,14 +37,14 @@ $npm run build qrcodes
  
  The above only reprocesses the qrcodes.md and parses it into  docs/qrcodes.html
 
- To get a list of build options simply type build with not option.
+ To get a list of build options simply type build with no option.
  $npm run build
  returns a list of valid choices.
 
  ***********
  Adding a new *.md file or modifying anything under the src folder structure.
 
- If you add a new *.md, it will ot find it until you manually add it to the src/md-files.json .  Simply copy a object block of json and append the new md file settings.
+ If you add a new *.md, it will not find it until you manually add it to the src/md-files.json .  Simply copy an object block of json and append the new md file settings.
 
  Now you must run the  compile step again. Then the build step and your new choice should be allowed and recognized.
 
@@ -66,7 +66,7 @@ The cause is a good one. I hope something good comes from the ideas we come up w
 *****************
 WARNING+++ This Repo does not sanitize the parsed markdown, thus malicious code can be incorporated.  You should always sanitize your resulting html, if taking input from untrested sources (such as public).  This repo allows anyone to submit changes, but only a limited trusted individuals will have the authority to incorporate those changes.
 
-NPM has a number of snitizers (DOM, Pure, and more).
+NPM has a number of sanitizers (DOM, Pure, and more).
 ***************
 
 
