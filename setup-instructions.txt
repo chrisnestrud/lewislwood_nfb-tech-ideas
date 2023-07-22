@@ -63,5 +63,10 @@ Small simple document modifying project, by techies and non-techies. I really en
 The cause is a good one. I hope something good comes from the ideas we come up with.
 
 
+*****************
+WARNING+++ This Repo does not sanitize the parsed markdown, thus malicious code can be incorporated.  You should always sanitize your resulting html, if taking input from untrested sources (such as public).  This repo allows anyone to submit changes, but only a limited trusted individuals will have the authority to incorporate those changes.
+
+NPM has a number of snitizers (DOM, Pure, and more).
+***************
 
 
