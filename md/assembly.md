@@ -6,18 +6,18 @@ Sure would have been nice to have  something to tell me these features. Since I 
 
 ## Beacons can they work?
 
-Personally I think the only use for a beacon in the assembly would be to audio describe the hall when you first enter. This would help rookies alot. Although the barkers are quite exciting.  This way you can move quickly to the column you need to go  down.  Placing beacons at affiliate seating would require 50+ and they may be too powerful and you would receive all 50+ affiliates simultaneous.  Thus not that practical in the Assembly Hall.
+Personally I think the only use for a beacon in the assembly would be to audio describe the hall when you first enter. This would help rookies alot. Although the barkers are quite exciting.  This way you can move quickly to the column you need to go  down.  Placing beacons at affiliate seating would require 50+ and they may be too powerful and you would receive all 50+ affiliates simultaneously.  Thus not that practical in the Assembly Hall.
 
 
 ## QrCodes can help
 
-QrCode can be at each entrance describing what is infront. This way you know what door to enter.  Also the columns can be described as Alabama through Arizoniaread first QrCode that says "Alabama" I know the next column will have some other affiliates. Each person know that is at the top of their column.
+QrCode can be at each entrance describing what is in front. This way you know what door to enter.  Also the columns can be described as Alabama through Arizona. read first QrCode that says "Alabama" I know the next column will have some other affiliates. Each person knows what is at the top of their column.
 
-QrCode for your affiliate can describe how many rows and if a aisle row is near. Properly done the QrCode can be read from whichever side you come from. Thus you need not come in the front of the affiliate when your seat you  were at was on the other side. 
+QrCode for your affiliate can describe how many rows and if an aisle row is near. Properly done the QrCode can be read from whichever side you come from. Thus you need not come in the front of the affiliate when the  seat you  were at was on the other side. 
 
 Also QrCode could be used as an orientation tool, thus not encountering surprise seating since columns of seats expand and shrink.
 
-If affiliates can update them. Special announcements and other things can be told to their affeliate members. Example: Happy birthday and our social gathering will be....
+If affiliates can update them, special announcements and other things can be told to their 	affiliate members. Example: Happy birthday and our social gathering will be....
 
 Also PAC tables and others can be labeled with a QrCode.
 
